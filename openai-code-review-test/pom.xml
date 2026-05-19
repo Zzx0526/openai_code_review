@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+            <groupId>com.sunline.zhuzx</groupId>
+        <artifactId>openai-code-review</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>openai-code-review-test</artifactId>
+    <packaging>jar</packaging>
+
+    <name>OpenAI Code Review Test</name>
+    <description>Test module for OpenAI Code Review</description>
+
+    <dependencies>
+        <dependency>
+        <groupId>com.sunline.zhuzx</groupId>
+            <artifactId>openai-code-review-sdk</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+        </dependency>
+    </dependencies>
+</project>
